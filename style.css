@@ -1,90 +1,15 @@
- *{
-  padding: 0;
-  margin: 0;
+ @import url(layout.css);
+ @import url(modules.css);
+ @import url(base.css);
  
-}
 
-#a {
-  background-color: blue;
-  
-}
-#b {
-    background-color: rgb(86, 192, 0);
-    height: 603px;
-    vertical-align: top;
-}
-#c {
-  background-color: rgb(41, 0, 9);
-}
-#d {
-  background-color: rgb(119, 119, 119);
-}
-#e {
-  background-color: rgb(0, 156, 13);
-} 
- #f {
-  background-color: silver;
-}
-#g {
-  background-color: brown;
-}
-#h {
-  background-color: yellow;
-  
-}
-#i {
-  background-color: rgb(255, 0, 34);
-}
 .box {
     display: inline-block;
     height: 200px;
 }
-.col12 {
-     width: 100%; 
-     /* width: 97%;  */
- } 
-.col6 { 
-     width: 49%; 
-    
-}
-.col3 {
-    width: 24%;
-    
-}
-.col9 {
-    width: 74%;
-}
-.test {
-    display: inline-block;
-}
-@media only screen and (max-width: 768px) {
-    #b {
-      width: 100%;
-      
-    }
-    .col6, .col9 {
-        width: 100%;
-    }
-    #e {
-        width: 49%;
-    }
-    #f {
-        width: 49%;
-    }
-    #g {
-        width: 49%;
-    }
-    #h {
-        width: 49%;
-    }
-  }
-   div {
-    border: 1px solid black; 
-   }  
+
+
+   
 
   
-  body {
-    max-width: 768px;
-    max-height: 960px;
-    
-  }
+ 
